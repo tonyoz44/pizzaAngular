@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <style>.delete
+{
+  text-decoration: line-through
+}
+
+  </style>
+  </head>
+  <body ng-app="projetPizza">
+
+
+ <li ng-repeat="pizza in ctrl.pizzaLists  track by $index">
+   <div>{{pizza}}</div>
+ </li>
+
+
+
+    <!--<div class="container" style="margin-top:3em">
+      <div class="row">
+        <div class="col-md-12" ng-controller="MonController as ctrl">
+
+          <ul class="list-group">
+            <li ng-class="{ delete: user.deleted }" ng-repeat="user in ctrl.users track by $index"
+              class="list-group-item">
+              {{ user.name }}
+              <button  ng-click="ctrl.removeUser($index)" type="button" class="close"><span aria-hidden="true">&times;</span></button>
+            </li>
+          </ul>
+
+          <input ng-model="ctrl.newUser.name" type="text" class="form-control">
+
+          <button ng-click="ctrl.addUser()" class="btn btn-primary">Add user</button>
+
+          <button ng-click="ctrl.load(1)" class="btn btn-primary">fichier1 </button>
+          <button ng-click="ctrl.load(2)" class="btn btn-primary">fichier2</button>
+
+          <div ng-include="ctrl.fichier"></div>
+        </div>
+        
+      </div>
+    </div>-->
+
+
+    <script src="build.js"></script>
+  </body>
+</html>
