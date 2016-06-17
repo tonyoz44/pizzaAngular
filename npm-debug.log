@@ -42,11 +42,11 @@
 24 info git [ 'rev-list', '-n1', 'master' ]
 25 silly resolveHead git+https://github.com/tonyoz44/dragAndDrop.git resolved treeish: 26285ebfa903395601650242cf6984a1a19f7eb2
 26 verbose resolveHead git+https://github.com/tonyoz44/dragAndDrop.git resolved Git URL: git+https://github.com/tonyoz44/dragAndDrop.git#26285ebfa903395601650242cf6984a1a19f7eb2
-27 silly resolveHead Git working directory: C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2
+27 silly resolveHead Git working directory: C:\Users\ETY\AppData\Local\Temp\npm-5228-ff7ff792\git-cache-d0901cbb\26285ebfa903395601650242cf6984a1a19f7eb2
 28 info git [ 'clone',
 28 info git   'C:\\Users\\ETY\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-tonyoz44-dragAndDrop-git-b7b184e9',
-28 info git   'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-2204-a3fee993\\git-cache-04e4ea4d\\26285ebfa903395601650242cf6984a1a19f7eb2' ]
-29 verbose cloneResolved git+https://github.com/tonyoz44/dragAndDrop.git clone Cloning into 'C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2'...
+28 info git   'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-5228-ff7ff792\\git-cache-d0901cbb\\26285ebfa903395601650242cf6984a1a19f7eb2' ]
+29 verbose cloneResolved git+https://github.com/tonyoz44/dragAndDrop.git clone Cloning into 'C:\Users\ETY\AppData\Local\Temp\npm-5228-ff7ff792\git-cache-d0901cbb\26285ebfa903395601650242cf6984a1a19f7eb2'...
 29 verbose cloneResolved done.
 30 info git [ 'checkout', '26285ebfa903395601650242cf6984a1a19f7eb2' ]
 31 verbose checkoutTreeish git+https://github.com/tonyoz44/dragAndDrop.git checkout Note: checking out '26285ebfa903395601650242cf6984a1a19f7eb2'.
@@ -63,7 +63,7 @@
 31 verbose checkoutTreeish HEAD is now at 26285eb... deuxième commit
 32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
 33 verbose updateSubmodules git+https://github.com/tonyoz44/dragAndDrop.git submodule update
-34 error addLocal Could not install C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2
+34 error addLocal Could not install C:\Users\ETY\AppData\Local\Temp\npm-5228-ff7ff792\git-cache-d0901cbb\26285ebfa903395601650242cf6984a1a19f7eb2
 35 silly fetchPackageMetaData Error: Failed to parse json
 35 silly fetchPackageMetaData Trailing comma in object at 22:3
 35 silly fetchPackageMetaData   }
@@ -85,7 +85,7 @@
 35 silly fetchPackageMetaData     at tryToString (fs.js:449:3)
 35 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
 35 silly fetchPackageMetaData   code: 'EJSONPARSE',
-35 silly fetchPackageMetaData   file: 'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-2204-a3fee993\\git-cache-04e4ea4d\\26285ebfa903395601650242cf6984a1a19f7eb2\\package.json' }
+35 silly fetchPackageMetaData   file: 'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-5228-ff7ff792\\git-cache-d0901cbb\\26285ebfa903395601650242cf6984a1a19f7eb2\\package.json' }
 36 silly rollbackFailedOptional Starting
 37 silly rollbackFailedOptional Finishing
 38 silly runTopLevelLifecycles Starting
@@ -106,13 +106,13 @@
 44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/tonyoz44/dragAndDrop"
 45 error node v6.2.1
 46 error npm  v3.9.3
-47 error file C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
+47 error file C:\Users\ETY\AppData\Local\Temp\npm-5228-ff7ff792\git-cache-d0901cbb\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
 48 error code EJSONPARSE
 49 error Failed to parse json
 49 error Trailing comma in object at 22:3
 49 error   }
 49 error   ^
-50 error File: C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
+50 error File: C:\Users\ETY\AppData\Local\Temp\npm-5228-ff7ff792\git-cache-d0901cbb\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
 51 error Failed to parse package.json data.
 51 error package.json must be actual JSON, not just JavaScript.
 51 error
