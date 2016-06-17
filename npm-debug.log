@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/tonyoz44/dragAndDrop' ]
+2 info using npm@3.9.3
+3 info using node@v6.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/tonyoz44/dragAndDrop
+8 silly fetchOtherPackageData https://github.com/tonyoz44/dragAndDrop
+9 silly cache add args [ 'https://github.com/tonyoz44/dragAndDrop', null ]
+10 verbose cache add spec https://github.com/tonyoz44/dragAndDrop
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/tonyoz44/dragAndDrop',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/tonyoz44/dragAndDrop',
+11 silly cache add   spec: 'git+https://github.com/tonyoz44/dragAndDrop.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:tonyoz44/dragAndDrop.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/tonyoz44/dragAndDrop.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/tonyoz44/dragAndDrop.git',
+11 silly cache add      gitUrl: 'git://github.com/tonyoz44/dragAndDrop.git',
+11 silly cache add      shortcut: 'github:tonyoz44/dragAndDrop',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/tonyoz44/dragAndDrop/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/tonyoz44/dragAndDrop
+13 verbose addRemoteGit git+https://github.com/tonyoz44/dragAndDrop.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/tonyoz44/dragAndDrop.git via git+https://github.com/tonyoz44/dragAndDrop.git
+15 verbose tryClone git-https-github-com-tonyoz44-dragAndDrop-git-b7b184e9 not in flight; caching
+16 verbose correctMkdir C:\Users\ETY\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+https://github.com/tonyoz44/dragAndDrop.git remote.origin.url: https://github.com/tonyoz44/dragAndDrop.git
+19 verbose validateExistingRemote git+https://github.com/tonyoz44/dragAndDrop.git is updating existing cached remote C:\Users\ETY\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-tonyoz44-dragAndDrop-git-b7b184e9
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (https://github.com/tonyoz44/dragAndDrop.git)
+22 verbose setPermissions git+https://github.com/tonyoz44/dragAndDrop.git skipping chownr on Windows
+23 verbose resolveHead git+https://github.com/tonyoz44/dragAndDrop.git original treeish: master
+24 info git [ 'rev-list', '-n1', 'master' ]
+25 silly resolveHead git+https://github.com/tonyoz44/dragAndDrop.git resolved treeish: 26285ebfa903395601650242cf6984a1a19f7eb2
+26 verbose resolveHead git+https://github.com/tonyoz44/dragAndDrop.git resolved Git URL: git+https://github.com/tonyoz44/dragAndDrop.git#26285ebfa903395601650242cf6984a1a19f7eb2
+27 silly resolveHead Git working directory: C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2
+28 info git [ 'clone',
+28 info git   'C:\\Users\\ETY\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-https-github-com-tonyoz44-dragAndDrop-git-b7b184e9',
+28 info git   'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-2204-a3fee993\\git-cache-04e4ea4d\\26285ebfa903395601650242cf6984a1a19f7eb2' ]
+29 verbose cloneResolved git+https://github.com/tonyoz44/dragAndDrop.git clone Cloning into 'C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2'...
+29 verbose cloneResolved done.
+30 info git [ 'checkout', '26285ebfa903395601650242cf6984a1a19f7eb2' ]
+31 verbose checkoutTreeish git+https://github.com/tonyoz44/dragAndDrop.git checkout Note: checking out '26285ebfa903395601650242cf6984a1a19f7eb2'.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+31 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+31 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+31 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish   git checkout -b <new-branch-name>
+31 verbose checkoutTreeish
+31 verbose checkoutTreeish HEAD is now at 26285eb... deuxième commit
+32 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+33 verbose updateSubmodules git+https://github.com/tonyoz44/dragAndDrop.git submodule update
+34 error addLocal Could not install C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2
+35 silly fetchPackageMetaData Error: Failed to parse json
+35 silly fetchPackageMetaData Trailing comma in object at 22:3
+35 silly fetchPackageMetaData   }
+35 silly fetchPackageMetaData   ^
+35 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+35 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+35 silly fetchPackageMetaData     at tryToString (fs.js:449:3)
+35 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+35 silly fetchPackageMetaData  error for https://github.com/tonyoz44/dragAndDrop { Error: Failed to parse json
+35 silly fetchPackageMetaData Trailing comma in object at 22:3
+35 silly fetchPackageMetaData   }
+35 silly fetchPackageMetaData   ^
+35 silly fetchPackageMetaData     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+35 silly fetchPackageMetaData     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+35 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+35 silly fetchPackageMetaData     at tryToString (fs.js:449:3)
+35 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+35 silly fetchPackageMetaData   code: 'EJSONPARSE',
+35 silly fetchPackageMetaData   file: 'C:\\Users\\ETY\\AppData\\Local\\Temp\\npm-2204-a3fee993\\git-cache-04e4ea4d\\26285ebfa903395601650242cf6984a1a19f7eb2\\package.json' }
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: Failed to parse json
+41 verbose stack Trailing comma in object at 22:3
+41 verbose stack   }
+41 verbose stack   ^
+41 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:390:11)
+41 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:79:23)
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+41 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+41 verbose stack     at tryToString (fs.js:449:3)
+41 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:436:12)
+42 verbose cwd C:\Users\ETY\Documents\Cours\CoursJavaScript\dtang
+43 error Windows_NT 6.1.7601
+44 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "https://github.com/tonyoz44/dragAndDrop"
+45 error node v6.2.1
+46 error npm  v3.9.3
+47 error file C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
+48 error code EJSONPARSE
+49 error Failed to parse json
+49 error Trailing comma in object at 22:3
+49 error   }
+49 error   ^
+50 error File: C:\Users\ETY\AppData\Local\Temp\npm-2204-a3fee993\git-cache-04e4ea4d\26285ebfa903395601650242cf6984a1a19f7eb2\package.json
+51 error Failed to parse package.json data.
+51 error package.json must be actual JSON, not just JavaScript.
+51 error
+51 error This is not a bug in npm.
+51 error Tell the package author to fix their package.json file. JSON.parse
+52 verbose exit [ 1, true ]

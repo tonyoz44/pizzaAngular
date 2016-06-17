@@ -1,6 +1,7 @@
 import angular from 'angular'
 import ngRoute from 'angular-route'
 
+
 import { PizzaModule } from './pizza'
 
 angular.module('dtang', [
@@ -8,30 +9,28 @@ angular.module('dtang', [
   ngRoute
 ])
 
+  .config(function ($routeProvider) {
+    $routeProvider
 
-.config(function ($routeProvider) {
+      .when('/', {
+        templateUrl: 'pizza-list.html',
+        controller: 'PizzaListController',
+        controllerAs: '$ctrl'
+      })
 
-  $routeProvider
+      .when('/about', {
+        template: `
+      <h1>ABOUT DTA</h1>
+        `
+      })
 
-  .when('/', {
-    templateUrl: 'pizza-list.html',
-    controller: 'PizzaListController',
-    controllerAs: '$ctrl'
+      .when('/pizza/:id', {
+        templateUrl: 'pizza-form.html',
+        controller: 'PizzaController',
+        controllerAs: '$ctrl'
+      })
+
+      .otherwise('/')
   })
-
-  .when('/about', {
-    template: '<h1>ABOUT</h1>',
-    controller: function () {}
-  })
-
-  .when('/pizza/:id', {
-    templateUrl: 'pizza-form.html',
-    controller: 'PizzaController',
-    controllerAs: '$ctrl'
-  })
-
-  .otherwise('/')
-
-})
 
 angular.bootstrap(document, ['dtang'])
